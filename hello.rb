@@ -1,4 +1,5 @@
 #! /usr/bin/ruby
+#apprendre de ruby.....y'a du taf !!
 annee = "2014"
 puts " ton âge ???"
 age = gets.chomp
