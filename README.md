@@ -1,4 +1,4 @@
-hello_World
+Citation Chateaubriand
 ===========
 
-mon premier programme
+Petit script qui me permet de recevoir par mail (à coupler avec un crontab) un extrait des mémoires d'outre tombe écrites par Chateaunbriand.
