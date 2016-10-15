@@ -1,0 +1,10 @@
+#!/bin/bash
+# citation_chateaubriand
+# Envoyer une citation de Chateaubriand par mail chaque jour avec cron.
+# mazarie29 à openmailbox.org
+##########
+HASARD=$[($RANDOM % ($[22567 - 0] + 1)) + 1] #Choix d'une ligne au hasard
+
+HASARD2=$(($HASARD+2)) #incrémentation d'une ligne
+sed -n "$HASARD","$HASARD2"p mot | mail -s "Extrait de la ligne $HASARD des mémoires d'outre tombe." mail@mail.com #envoi par courriel la ligne sélectionnée.
+exit 0
