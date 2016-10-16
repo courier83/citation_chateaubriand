@@ -11,4 +11,4 @@ Le script définit un chiffre au hasard correspondant à une ligne de la base de
 - Adapter le script à n'importe quel fichier et limiter les valeurs Random par le nombre de lignes du fichier.
 - Créer un fichier .conf (ou autre) pour une variable mail
 - Tri sur les lignes extraites: par exemple ne pas envoyer un saut de ligne :( ou un titre.
-
+- Supprimer touts les sauts de ligne de la base de données avant extraction.
