@@ -1,7 +1,7 @@
 #!/bin/bash
 # citation_chateaubriand
 # Envoyer une citation de Chateaubriand par mail chaque jour avec cron.
-# mazarie29 à openmailbox.org
+# mazarie29 CHEZ openmailbox POINT org
 ##########
 HASARD=$[($RANDOM % ($[22567 - 0] + 1)) + 1] #Choix d'une ligne au hasard
 
